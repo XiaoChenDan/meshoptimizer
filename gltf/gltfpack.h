@@ -42,6 +42,7 @@ struct Stream
 struct Transform
 {
 	float data[16];
+	std::vector<Stream> custom_atts;
 };
 
 struct Mesh
